@@ -1,0 +1,60 @@
+.game {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 10px;
+  background: dodgerblue;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.game .player {
+  margin: 0 30px;
+  width: 150px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game .player .name {
+  background-color: orange;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.game .player .count {
+  width: 100%;
+  background-image: url("../images/Card.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-grow: 1;
+  margin-top: 10px;
+  padding-top: 60%;
+  text-align: center;
+  font-size: 25pt;
+}
+
+.game .me .count {
+  cursor: pointer;
+}
+
+.game .deck {
+  background:dodgerblue;
+  padding-right: 100px;
+  padding-top: 220px;
+  text-align: center;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.game .deck .card {
+  display: inline-block;
+  margin-right: -130px;
+  margin-top: -220px;
+}
+
+.game .deck .card img {
+  max-height: 290px;
+}

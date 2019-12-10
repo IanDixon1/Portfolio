@@ -1,0 +1,38 @@
+.game {
+  width: 1000px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.game .timer {
+  text-align: left;
+}
+
+.game input {
+  width: 100%;
+  padding: 10px;
+  font-size: 24pt;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.game .word-list .word {
+  padding: 20px;
+  margin: 20px auto 0 auto;
+  width: 50%;
+  background-color: #00aaaa;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+}
+
+.game .word-list .word .word-value {
+  font-size: 20pt;
+  color: #ffffff;
+}
+
+.game .word-list .word .word-timer {
+  margin-top: 5px;
+  font-size: 14pt;
+  color: #aaaaaa;
+}

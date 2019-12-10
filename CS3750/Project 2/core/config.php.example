@@ -1,0 +1,8 @@
+<?php
+class Config {
+  public static $dbHost = "";
+  public static $dbUser = "";
+  public static $dbPassword = "";
+  public static $dbSchema = "";
+}
+?>
